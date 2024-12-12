@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styleKpop.css">
+    <link rel="stylesheet" href="styleMeKpop.css">
     <meta charset="UTF-8" />
     <title>Count Me Kpop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,14 @@
 
     <div id="Suchbegriff">
         <input type="text" id="schreibMal">
-        <button id="gibDenSuchbegriff" onclick="zeigeAn()">Welcher Song darf es sein?</button>
+        <button id="gibDenSuchbegriff" onclick="readAndSave()">Was suchst du?</button>
     </div>
 
     //Eingabefeld 1 hier für die Kpop Song-Lyrics//
 
     <div id="Song-Lyrics">
-        <input type="text" id="enter">
-        <button id="zeigdielyrics" onclick="readAndSave()">Song-Lyrics von TOMBOY</button>
+        <textarea id="enter" rows="50" cols="50"></textarea>
+        <button id="zeigdielyrics" onclick="zeigeAn()">Song-Lyrics von TOMBOY</button>
     </div>
 
     //Anzeigefeld textbox whatever//
@@ -28,6 +28,6 @@
     <div id="showMe">
 
     </div>
-
+<script src="script.js"></script>
 </body>
 </html>
