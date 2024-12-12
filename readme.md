@@ -19,6 +19,8 @@ JavaScript-Funktionalität:
 2. Suchfunktion
 - Implementieren einer Suchfunktion:
     - Text aus Eingabefeld 1 durchsuchen.
+        (text.search) zählt wie oft 
+
     - Anzahl der Vorkommen des Suchbegriffs zählen.
 
 3. Ergebnis
@@ -45,3 +47,7 @@ Suchfunktion prüfen.
 
 Die Kpop-Lyrics zeigen sich je nach Gruppe in unterschiedlichen Designs (fonts, text-color, etc.)
 Bsp.: Blackpink Songs erscheinen in der typischen Schrift und in Farben
+
+
+
+Erstelle ein Array mit Werten, welche der Titel von einem Song entspricht und die Lyrics beinhaltet.
