@@ -3,10 +3,13 @@
 //InputFeld liest, was in Feld "enter" steht
 const InputFeld = document.getElementById("enter");
 
-function werteAus() {
-//Z. 8 Inhalt wird gelesen Z.9
+function readAndSave() {
+//Z. 8 Inhalt wird gelesen Z.9 speichert Eingabe als String
     let eingabe = InputFeld.value;
-    saveLyrics.push(eingabe);
+    let lyrics = "";
 }
+
+
+
 
 //Erfassen des Suchbegriffs aus dem zweiten Eingabefeld.
