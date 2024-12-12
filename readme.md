@@ -11,12 +11,21 @@ Design für die Eingabefelder, Button und das Ergebnisfeld.
 
 JavaScript-Funktionalität:
 
-Erfassen und Speichern der Lyrics aus dem ersten Eingabefeld.
-Erfassen des Suchbegriffs aus dem zweiten Eingabefeld.
-Implementieren einer Suchfunktion:
-Text aus Eingabefeld 1 durchsuchen.
-Anzahl der Vorkommen des Suchbegriffs zählen.
-Ergebnis anzeigen.
+1. Die Eingabefelder
+- Erfassen und Speichern der Lyrics aus dem ersten Eingabefeld.
+
+- Erfassen des Suchbegriffs aus dem zweiten Eingabefeld.
+
+2.Suchfunktion
+- Implementieren einer Suchfunktion:
+    - Text aus Eingabefeld 1 durchsuchen.
+    - Anzahl der Vorkommen des Suchbegriffs zählen.
+
+3. Ergebnis
+- Ergebnis anzeigen.
+
+4. Präsentation
+- stylesheet ballern
 
 
 OPTIONAL AAAAAAAAAAAAAAAAAH
