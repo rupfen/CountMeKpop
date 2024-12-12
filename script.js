@@ -1,8 +1,12 @@
 //Erfassen und Speichern der Lyrics aus dem ersten Eingabefeld.
-const 
-// 
+
+//InputFeld liest, was in Feld "enter" steht
+const InputFeld = document.getElementById("enter");
+
 function werteAus() {
-    let  = LESEN.value;
+//Z. 8 Inhalt wird gelesen Z.9
+    let eingabe = InputFeld.value;
+    saveLyrics.push(eingabe);
 }
 
 //Erfassen des Suchbegriffs aus dem zweiten Eingabefeld.
