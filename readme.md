@@ -42,3 +42,6 @@ Testen:
 
 Eingabefelder mit verschiedenen Daten testen.
 Suchfunktion prüfen.
+
+Die Kpop-Lyrics zeigen sich je nach Gruppe in unterschiedlichen Designs (fonts, text-color, etc.)
+Bsp.: Blackpink Songs erscheinen in der typischen Schrift und in Farben
