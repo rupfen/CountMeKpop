@@ -1,7 +1,35 @@
 
-#### Basics des Projekts
-1. eine html Seite, mit stylesheet, script
+HTML-Struktur erstellen:
 
-2. 2 Eingabefelder
+Ein Formular mit zwei Eingabefeldern und einem Button.
+Eingabefeld 1: Für die Song-Lyrics.
+Eingabefeld 2: Für den Suchbegriff.
+Ein Bereich zur Anzeige der Ergebnisse.
+CSS-Styling hinzufügen (optional):
 
-3. soll ästhetisch sein
+Design für die Eingabefelder, Button und das Ergebnisfeld.
+
+JavaScript-Funktionalität:
+
+Erfassen und Speichern der Lyrics aus dem ersten Eingabefeld.
+Erfassen des Suchbegriffs aus dem zweiten Eingabefeld.
+Implementieren einer Suchfunktion:
+Text aus Eingabefeld 1 durchsuchen.
+Anzahl der Vorkommen des Suchbegriffs zählen.
+Ergebnis anzeigen.
+
+
+OPTIONAL AAAAAAAAAAAAAAAAAH
+---
+
+Erweiterte Funktionen (optional):
+
+Case-Sensitivity beim Suchen deaktivieren/aktivieren.
+Fehlerbehandlung:
+Wenn keine Lyrics eingegeben wurden.
+Wenn kein Suchbegriff eingegeben wurde.
+Speichern der Lyrics und Suchbegriffe lokal (z. B. localStorage).
+Testen:
+
+Eingabefelder mit verschiedenen Daten testen.
+Suchfunktion prüfen.
