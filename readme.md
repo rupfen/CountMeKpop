@@ -16,7 +16,7 @@ JavaScript-Funktionalität:
 
 - Erfassen des Suchbegriffs aus dem zweiten Eingabefeld.
 
-2.Suchfunktion
+2. Suchfunktion
 - Implementieren einer Suchfunktion:
     - Text aus Eingabefeld 1 durchsuchen.
     - Anzahl der Vorkommen des Suchbegriffs zählen.
