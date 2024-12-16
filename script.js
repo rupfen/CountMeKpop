@@ -59,7 +59,7 @@ Just me, loving tomboy`;
 //Erfassen und Speichern der Lyrics aus dem ersten Eingabefeld.
 
 //InputFeld liest was im HTML Feld mit der ID "enter" steht
-
+// Temporärer Einzug von STell-text im 
 window.onload =() => {
 const InputFeld = document.getElementById("enter");
 InputFeld.innerHTML=TOMBOY;
@@ -71,13 +71,19 @@ console.log("Hallo");
 //die Suchfunktion sucht innerhalb der Eingabe des Input-Felds ziffern,buchstaben,worte und Sätze
 function Suchfunktion(text) {
   //return = suche und gib mir den Wert zurück
+let suche = document.getElementById("schreibMal").value;
+ 
+if ()
 
   return {
 // ziffer,wort,letter
-   ziWoLe: text.search()
-}
+   ziWoLe: text.search([suche]\wdgx ) 
 }
 
+
+}
+
+// der Suche zutreffend markieren in Eingabefeld
 
 
 function readAndSave() {
