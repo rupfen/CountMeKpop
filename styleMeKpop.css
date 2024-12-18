@@ -1,7 +1,53 @@
-div {
+*{
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;   
+}
+
+h1 {
+    text-align: center;
+}
+
+.gridBody {
+    display: grid;
+    gap: 10px;
+    background-color: ;
+    padding: 10px;
+  }
+
+.contentBox {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
     background-color: #E6E6FA;
 }
+
+/* .gridBody {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .contentBox {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+  
+  .item5 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+  } */
