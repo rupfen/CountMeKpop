@@ -59,7 +59,6 @@ Just me, loving tomboy`;
 //Erfassen und Speichern der Lyrics aus dem ersten Eingabefeld.
 
 //InputFeld liest was im HTML Feld mit der ID "enter" steht
-// Temporärer Einzug von STell-text im 
 window.onload =() => {
 const InputFeld = document.getElementById("enter");
 InputFeld.innerHTML=TOMBOY;

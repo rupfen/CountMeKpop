@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <link rel="stylesheet" href="styleMeKpop.css">
+  <head>
+    <link rel="stylesheet" href="styleMeKpop.css" />
     <meta charset="UTF-8" />
     <title>Count Me Kpop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<body>
-    <h1> Hello Kpoopie!</h1>
-
-<div class="gridBody">
-     <!--Eingabefeld 2 für den Suchbegriff-->
-
-     <div class="contentBox item1" id="Suchbegriff">
-        <input type="text" id="schreibMal" placeholder="gib hier einen Kpop-Song ein">
-        <button id="gibDenSuchbegriff" onclick="readAndSave()">Was suchst du?</button>
+  <body>
+    <div >
+        <h1>Hello Kpoopie!</h1>
     </div>
 
-    <!--Eingabefeld 1 hier für die Kpop Song-Lyrics-->
+    <div class="gridBody">
+      <!--Eingabefeld 2 für den Suchbegriff-->
 
-    <div class="contentBox item2" id="Song-Lyrics">
+      <div class="contentBox item1" id="Suchbegriff">
+        <div>
+          <input
+            type="text"
+            id="schreibMal"
+            placeholder="gib hier einen Kpop-Song ein"
+          />
+        </div>
+        <div>
+          <button id="gibDenSuchbegriff" onclick="readAndSave()">
+            Was suchst du?
+          </button>
+        </div>
+      </div>
+
+      <!--Eingabefeld 1 hier für die Kpop Song-Lyrics-->
+
+      <div class="contentBox item2" id="Song-Lyrics">
         <textarea id="enter" rows="50" cols="50"></textarea>
-        <button id="zeigdielyrics" onclick="zeigeAn()">Song-Lyrics von TOMBOY</button>
+        <button id="zeigdielyrics" onclick="zeigeAn()">
+          Song-Lyrics von TOMBOY
+        </button>
+      </div>
+
+      <!--Anzeigefeld textbox whatever-->
+
+      <div id="showMe"></div>
     </div>
 
-    <!--Anzeigefeld textbox whatever-->
-
-    <div id="showMe">
-
-    </div>
-</div>
-
-
-<!-- <div class="gridBody">
+    <!-- <div class="gridBody">
     <div class="contentBox item1">1</div>
     <div class="contentBox item2">2</div>
     <div class="contentBox item3">3</div>  
@@ -43,6 +53,5 @@
   </div> -->
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

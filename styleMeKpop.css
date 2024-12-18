@@ -1,26 +1,35 @@
-*{
-    justify-content: center;
-    align-items: center;
-    box-sizing: content-box;   
+* {
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
 }
-
+body {
+  background-color: #171d1c;
+}
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .gridBody {
+<<<<<<< Updated upstream
     display: grid;
     gap: 10px;
     background-color:
     padding: 10px;
   }
+=======
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+>>>>>>> Stashed changes
 
 .contentBox {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    background-color: #E6E6FA;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #e6e6fa;
 }
 
 /* .gridBody {
