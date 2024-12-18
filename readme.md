@@ -53,3 +53,13 @@ Bsp.: Blackpink Songs erscheinen in der typischen Schrift und in Farben
 
 
 Erstelle ein Array mit Werten, welche der Titel von einem Song entspricht und die Lyrics beinhaltet.
+
+Farbschema:
+
+#171D1C
+#D6D3F0
+#CCC9A1
+#6B5CA5
+#5E548E
+#E3170A
+#DE3C4B
