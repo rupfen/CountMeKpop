@@ -21,6 +21,7 @@ JavaScript-Funktionalität:
 - Implementieren einer Suchfunktion:
     - Text aus Eingabefeld 1 durchsuchen.
         (text.search) zählt wie oft 
+        (text.match) highlightet wie zutreffend -> Ergebnis
 
     - Anzahl der Vorkommen des Suchbegriffs zählen.
 
