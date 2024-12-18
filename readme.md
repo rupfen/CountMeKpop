@@ -63,3 +63,4 @@ Farbschema:
 #5E548E
 #E3170A
 #DE3C4B
+#E6E6FA
