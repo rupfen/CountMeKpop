@@ -1,0 +1,68 @@
+/*.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) 1fr;
+    grid-template-rows: repeat(2, 1fr) 3fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 3 / 1 / 4 / 4; }
+    .div5 { grid-area: 2 / 1 / 3 / 4; }
+
+
+*/
+#gridBod {
+
+display:grid;
+gap: 10px;
+grid-template-columns: repeat(5, 1fr);
+grid-template-areas:
+"title title suche suche button"
+"count count count count count"
+"source source source source source"
+;
+justify-content: center;
+align-items: center;
+box-sizing: content-box;
+padding-left: 10em;
+padding-right: 10em;
+ 
+}
+.item {
+background-color: aliceblue;
+}
+#header {
+
+    grid-area: header;
+
+}
+#title {
+
+    grid-area: title;
+
+}
+#suche {
+
+    grid-area: suche;
+
+}
+#button {
+
+    grid-area: button;
+
+}
+#count {
+
+    grid-area: count;
+
+}
+#source {
+
+    grid-area: source;
+
+}
+
+/* 
